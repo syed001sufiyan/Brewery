@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewery</title>
+    <link rel="icon" type="image/png" href="/imgs/clinking-beer-mugs.png" sizes="32x32">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid nav-bar" id="title">
+        <div class="left-header">
+            <div class="Header">
+                <div class="Header-item">
+                    <img src="/imgs/beer-mugs.png" width="75" height="60" alt="Brewery" id="logo" >
+                </div>
+                <div class="Header-item p-2">
+                    <h1>OPEN BREWERY</h1>
+                </div>
+            </div>
+        </div>
+        <div class="right-header">
+            <div class="Header d-flex align-items-center">
+                <div class="Header-item">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search" id="search-value">
+                </div>
+                <div class="Header-item">
+                    <button class="pageButtons" id="search-button">Go!</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="main-content">
+    </div>
+    <div id="footer" class="container-fluid d-flex justify-content-center">
+    </div>
+    <!--Modal Section-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <img src="/imgs/clinking-beer-mugs.png" width="75" height="60" alt="Brewery" >
+            <span><b><em>Contact Details of <span id="BreweryName"></span></em></b></span><hr>
+            <div class="brewery-details"></div>
+        </div>
+    </div>
+    <!--Scripts-->
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
